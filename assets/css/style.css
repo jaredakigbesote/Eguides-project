@@ -66,6 +66,10 @@ nav {
     top: 100%;
 }
 
+ul li a:hover {
+    color: #B59410;
+}
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -73,8 +77,10 @@ nav {
 #nav-toggle {
     display: none;
 }
-.nav-toggle-label{
+
+.nav-toggle-label {
     font-size: 2rem;
+    margin-right: 10px;
 }
 
 main {
@@ -82,9 +88,31 @@ main {
     background-size: cover;
     background-position: center top;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 footer {
     background-color: black;
-
+}
+/* media query; tablets and larger */
+@media screen and (min-width: 768px) {
+    
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        
+    }
+    #menu{
+        display: flex;
+    }
+    #menu > li{
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    
 }
