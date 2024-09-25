@@ -4,10 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+}
 
-header{
-    background-color:black;}
-main{
-    background-image:url(https://assetsio.gnwcdn.com/elden-ring-walkthrough-8042-1647018411119.jpg?width=690&quality=75&format=jpg&auto=webp);}
-footer{
-    background-color:black;}
+header {
+    background-color: black;
+}
+
+main {
+    background-image: url(images/Eldenproject.jpg.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: black;
+    
+}
