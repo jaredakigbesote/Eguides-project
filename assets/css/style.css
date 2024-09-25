@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: yellow;
+    color: white;
     font-family: "PT Serif", serif;
     ;
 
@@ -28,10 +28,34 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #808080;
 }
+header a {
+    text-decoration: none;
+}
 
 h1 {
     font-family: "Teko", sans-serif;
-    color: yellow;
+    color: #B59410;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+#menu { 
+    letter-spacing: 2px;
+    list-style-type: none;
+    font-size: 130%;
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #808080;
+    display: none;
+
 }
 
 main {
