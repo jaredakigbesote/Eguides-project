@@ -1,0 +1,13 @@
+/* Asterisk wildcard selector to override default styles added bu browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:black;}
+main{
+    background-image:url(https://assetsio.gnwcdn.com/elden-ring-walkthrough-8042-1647018411119.jpg?width=690&quality=75&format=jpg&auto=webp);}
+footer{
+    background-color:black;}
