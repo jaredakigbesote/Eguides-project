@@ -22,9 +22,16 @@ body {
 
 header {
     background-color: black;
+    padding: 0;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #808080;
 }
+
 h1 {
     font-family: "Teko", sans-serif;
+    color: yellow;
 }
 
 main {
