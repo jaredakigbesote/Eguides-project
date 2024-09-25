@@ -122,7 +122,10 @@ footer {
     }
 
     main {
-        margin-top: 75px;
+        margin-top: 84px;
+    }
+    ul li{
+        font-size: 150%;
     }
 
 }
