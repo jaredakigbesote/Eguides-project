@@ -51,6 +51,12 @@ h1 {
     font-size: 110%;
 }
 
+.active {
+    color: #B59410;
+    border-bottom: 2px solid #B59410;
+}
+
+
 #menu>li {
     margin-bottom: 1em;
 }
