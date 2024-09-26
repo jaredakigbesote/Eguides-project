@@ -86,11 +86,14 @@ nav {
 }
 
 main {
-    background-image: url(images/Eldenproject.jpg.jpg);
-    background-size: cover;
     background-position: center top;
     flex: 1 0 auto;
     margin-top: 47px;
+}
+#eldenback{
+    height: 1500px;
+    width: 100%;
+    background: url(images/Eldenproject.jpg.jpg) no-repeat center center/cover;
 }
 
 footer {
