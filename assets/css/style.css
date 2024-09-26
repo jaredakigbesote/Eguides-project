@@ -89,6 +89,24 @@ main {
 
 footer {
     background-color: black;
+
+}
+
+#socials {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 180%;
+    color: white;
+}
+
+#socials i:hover {
+    color: #B59410;
 }
 
 /* media query; tablets and larger */
@@ -124,7 +142,8 @@ footer {
     main {
         margin-top: 84px;
     }
-    ul li{
+
+    ul li {
         font-size: 150%;
     }
 
