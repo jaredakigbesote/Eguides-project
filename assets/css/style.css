@@ -20,6 +20,17 @@ body {
 
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Teko", sans-serif;
+    color: #B59410;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
 header {
     background-color: black;
     padding: 0;
@@ -36,19 +47,12 @@ header a {
     text-decoration: none;
 }
 
-h1 {
-    font-family: "Teko", sans-serif;
-    color: #B59410;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-
-}
 
 #menu {
     letter-spacing: 1px;
     list-style-type: none;
     font-size: 110%;
+    color: white;
 }
 
 .active {
@@ -90,10 +94,33 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
-#eldenback{
+
+#eldenback {
     height: 1500px;
     width: 100%;
     background: url(images/Eldenproject.jpg.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(22, 3, 46, 0.644);
+    font-size: 110%;
+    position: absolute;
+    bottom: 270px;
+    left: 2px;
+    width: 80%;
+    height: 200px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#logo2 {
+    font-size: 190%;
+    color: #B59410;
+}
+
+#ctext {
+    color: white;
 }
 
 footer {
@@ -152,6 +179,13 @@ footer {
         margin-top: 84px;
     }
 
+    #cover-text {
+        width: 45%;
+        right: 10px;
+        font-size: 120%;
+        padding-bottom: 80px;
+    }
+
     ul li {
         font-size: 150%;
     }
@@ -161,6 +195,19 @@ footer {
 @media screen and (min-width: 992px) {
     ul li a:hover {
         color: #B59410;
+    }
+
+    #cover-text {
+        width: 25%;
+        font-size: 120%;
+    }
+
+    @media screen and (min-width: 2000px) {
+        #cover-text {
+            width: 15%;
+            font-size: 130%;
+        }
+
     }
 
 }
