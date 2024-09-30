@@ -31,16 +31,19 @@ h4 {
     font-weight: 700;
 }
 #the-game{
-    background-color: rgba(19, 2, 39, 0.781);
+    background-color: rgba(19, 2, 39, 0.801);
     position: absolute;
-    bottom: 700px;
+    bottom: 660px;
 
 }
 #the-site{
-    background-color: rgba(19, 2, 39, 0.781);
+    background-color: rgba(19, 2, 39, 0.801);
     position: absolute;
     bottom: 1px;
-
+}
+#video{
+    position: absolute;
+    bottom: 320px;
 }
 
 header {
