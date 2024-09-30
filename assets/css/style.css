@@ -30,6 +30,18 @@ h4 {
     letter-spacing: 1px;
     font-weight: 700;
 }
+#the-game{
+    background-color: rgba(19, 2, 39, 0.781);
+    position: absolute;
+    bottom: 700px;
+
+}
+#the-site{
+    background-color: rgba(19, 2, 39, 0.781);
+    position: absolute;
+    bottom: 1px;
+
+}
 
 header {
     background-color: black;
@@ -106,7 +118,7 @@ main {
     background-color: rgba(22, 3, 46, 0.644);
     font-size: 110%;
     position: absolute;
-    bottom: 270px;
+    top: 70px;
     left: 2px;
     width: 80%;
     height: 200px;
