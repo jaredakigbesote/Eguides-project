@@ -108,6 +108,9 @@ nav {
     display: none;
     top: 100%;
 }
+a{
+    color: white;
+}
 
 #nav-toggle:checked~nav {
     display: block;
@@ -154,6 +157,9 @@ main {
 
 #ctext {
     color: white;
+}
+#how-we{
+    padding-left: 12px;
 }
 
 footer {
