@@ -30,28 +30,35 @@ h4 {
     letter-spacing: 1px;
     font-weight: 700;
 }
-#the-game{
+
+#the-game {
     background-color: rgba(19, 2, 39, 0.904);
     position: absolute;
     bottom: 645px;
+    padding: 10px;
 
 }
-#the-site{
+
+#the-site {
     background-color: rgba(19, 2, 39, 0.904);
     position: absolute;
     bottom: 1px;
+    padding: 10px;
 }
-#video{
+
+#video {
     position: absolute;
-    bottom: 320px;
+    bottom: 353px;
     width: 100%;
     height: 20%;
     border: 1px solid #B59410;
 }
-#how-we{
+
+#how-we {
     background-color: black;
 }
-.aid{
+
+.aid {
     font-size: 170%;
     border-bottom: 1px solid #B59410;
 }
@@ -128,7 +135,7 @@ main {
     position: relative;
 }
 
-#cover-text {
+#cover-text{
     background-color: rgba(22, 3, 46, 0.644);
     font-size: 110%;
     position: absolute;
@@ -204,14 +211,17 @@ footer {
     main {
         margin-top: 84px;
     }
-    #the-game{
+
+    #the-game {
         bottom: 900px;
     }
-    #video{
+
+    #video {
         position: absolute;
         bottom: 320px;
         width: 100%;
-        height: 500px;}
+        height: 500px;
+    }
 
     #cover-text {
         width: 45%;
@@ -225,19 +235,21 @@ footer {
     }
 
 }
- 
-    
+
+
 
 
 @media screen and (min-width: 992px) {
     ul li a:hover {
         color: #B59410;
     }
-    #video{
+
+    #video {
         width: 47%;
         right: 266px;
     }
-    #the-game{
+
+    #the-game {
         width: 25%;
         padding-top: 5px;
         padding-bottom: 10px;
@@ -245,7 +257,8 @@ footer {
         right: 755px;
         font-size: 110%;
     }
-    #the-site{
+
+    #the-site {
         width: 25%;
         padding-top: 5px;
         padding-bottom: 10px;
@@ -262,33 +275,73 @@ footer {
     }
 }
 
-    @media screen and (min-width: 2000px) {
-        #cover-text {
-            width: 15%;
-            font-size: 130%;
-        }
-        #video{
-            width: 30%;
-            right: 950px;
-        }
-        #the-game{
-            width: 15%;
-            padding-top: 5px;
-            padding-bottom: 10px;
-            bottom: 330px;
-            right: 1730px;
-            font-size: 120%;
-        }
-        #the-site{
-            width: 15%;
-            padding-top: 5px;
-            padding-bottom: 10px;
-            bottom: 455px;
-            right: 555px;
-            font-size: 120%;
-
-        }
-
+@media screen and (min-width:1430px) {
+    #video {
+        right: 380px;
     }
 
+    #the-game {
+        width: 25%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        bottom: 315px;
+        right: 1070px;
+        font-size: 120%;
+    }
+    #the-site {
+        width: 25%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        bottom: 435px;
+        right: 10px;
+        font-size: 120%;}
+}
+
+@media screen and (min-width: 2000px) {
+    #cover-text {
+        width: 20%;
+        font-size: 180%;
+        padding-bottom: 220px;
+    }
+
+    #video {
+        width: 40%;
+        right: 750px;
+        height: 800px;
+    }
+
+    #the-game {
+        width: 20%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        bottom: 400px;
+        right: 1790px;
+        font-size: 160%;
+    }
+
+    #the-site {
+        width: 20%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        bottom: 400px;
+        right: 220px;
+        font-size: 160%;
+
+    }
+    #how-we{
+        font-size: 130%;
+    }
+    #desc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #hw > div{
+        width: 75%;
+    }
+    .cb{
+        text-align: end;
+        align-self: flex-end;
+    }
+   
 }
