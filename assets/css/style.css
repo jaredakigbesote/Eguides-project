@@ -122,7 +122,7 @@ main {
 }
 
 #eldenback {
-    height: 1500px;
+    height: 1420px;
     width: 100%;
     background: url(images/Eldenproject.jpg.jpg) no-repeat center center/cover;
     position: relative;
@@ -225,21 +225,68 @@ footer {
     }
 
 }
+ 
+    
+
 
 @media screen and (min-width: 992px) {
     ul li a:hover {
         color: #B59410;
     }
+    #video{
+        width: 47%;
+        right: 266px;
+    }
+    #the-game{
+        width: 25%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        bottom: 290px;
+        right: 755px;
+        font-size: 110%;
+    }
+    #the-site{
+        width: 25%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        bottom: 355px;
+        right: 5px;
+        font-size: 110%;
+
+    }
+
 
     #cover-text {
         width: 25%;
         font-size: 120%;
     }
+}
 
     @media screen and (min-width: 2000px) {
         #cover-text {
             width: 15%;
             font-size: 130%;
+        }
+        #video{
+            width: 30%;
+            right: 950px;
+        }
+        #the-game{
+            width: 15%;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            bottom: 330px;
+            right: 1730px;
+            font-size: 120%;
+        }
+        #the-site{
+            width: 15%;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            bottom: 455px;
+            right: 555px;
+            font-size: 120%;
+
         }
 
     }
