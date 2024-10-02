@@ -138,15 +138,27 @@ main {
     height: 1420px;
     width: 100%;
     background: url(/assets/images/Eldenproject.jpg.jpg) no-repeat center center/cover;
-    position: relative;
+    position: relatve;
 }
+
+
 
 #para-img {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-content: center;
+    justify-content: center;
+    /* align-content: center; */
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: baseline;
+}
 
+#flex-para {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -398,12 +410,14 @@ footer {
 .flex-guides h2 {
     font-size: 38px;
     border-bottom: 2px solid #B59410;
-    
+
 }
-.flex-guides p{
+
+.flex-guides p {
     font-size: 25px;
 }
-.dropbut{
+
+.dropbut {
     background-color: #B59410;
     margin-top: 50px;
     padding: 40px;
@@ -411,35 +425,45 @@ footer {
     border: none;
     color: black;
 }
-.dropdown{
+
+.dropdown {
     position: relative;
     display: inline-block;
 }
-.dropdown-content{
+
+.dropdown-content {
     display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.dropdown:hover .dropbut {background-color: #B59410;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbut {
+    background-color: #B59410;
+}
 
 /*sign up page */
 .sign-upbox {
     width: 360px;
     height: 620px;
-    margin:auto;
+    margin: auto;
     background-color: rgba(19, 2, 39, 0.904);
     border-radius: 3px;
 }
