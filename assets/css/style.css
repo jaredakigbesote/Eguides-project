@@ -138,7 +138,7 @@ main {
     height: 1420px;
     width: 100%;
     background: url(images/Eldenproject.jpg.jpg) no-repeat center center/cover;
-    position: relativ;
+    position: relative;
 }
 
 #para-img {
@@ -368,7 +368,15 @@ footer {
     }
 
 }
-/*sign-up page */
+/* guides */
+.box{
+    width: 300px;
+    height: 500px;}
+    
+ .guide-img{
+    width: 400px;
+    height: 200px;
+}
 .sign-upbox{
     width: 360px;
     height: 620px;
