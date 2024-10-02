@@ -98,7 +98,7 @@ header a {
 
 
 #menu>li {
-    margin-bottom: ;
+    margin-botom: ;
 }
 
 nav {
@@ -380,6 +380,8 @@ footer {
     text-align: center;
     padding-top: 15px;
     font-size: 50px;
+    border-bottom: 1px solid #B59410;
+    
 }
 form{
     width: 300px;
@@ -429,7 +431,7 @@ div p{
 /*login page */
 .login-page{
     width: 360px;
-    height: 270px;
+    height: 315px;
     border-radius: 4px;
     margin: auto;
     background-color: rgba(19, 2, 39, 0.904);
@@ -438,6 +440,7 @@ div p{
     text-align: center;
     padding-top: 15px;
     font-size: 50px;
+    border-bottom: 1px solid #B59410;
 
 }
 #sign-upbox{
