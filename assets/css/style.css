@@ -363,7 +363,7 @@ footer {
         font-size: 130%;
     }
 
-    #desc {
+    .desc {
         width: 100%;
         display: flex;
         flex-direction: column;

@@ -24,4 +24,4 @@ A update announcement on the home page to infrom users of the game current build
 
 ## Testing
 ### Validation
-No errors where found in the style.css file.[(Jigsaw) validator] https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjaredakigbesote.github.io%2FEguides-project%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+No errors where found in the style.css file. [(Jigsaw) validator] https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjaredakigbesote.github.io%2FEguides-project%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
