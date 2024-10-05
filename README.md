@@ -1,7 +1,7 @@
 # EldenGuides
 
 The EldenGuides page is aimed to be a hub of information to help players of the game. Players can find guides for all corners of the game. there is also a range of tools to help players navigate the games confusing mechanics.
-  ![Main]()
+  ![Main](https://github.com/jaredakigbesote/Eguides-project/blob/main/assets/media/main.PNG)
 
 ## Features
 
