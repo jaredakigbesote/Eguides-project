@@ -7,9 +7,10 @@ The EldenGuides page is aimed to be a hub of information to help players of the 
 - __Navigation bar__
 - The nav bar is designed to help users with smaller screens navigate our site easier by using a reponsive dropdown menu. It contains options for all 4 sections of the website.
 - Users on larger screens, the nav bar will show the 4 options out along the header.
-   ![Nav Bar]()
+   ![Nav Bar](https://github.com/jaredakigbesote/Eguides-project/blob/main/assets/media/navv.PNG)
 - __Footer__
 - The footer features 3 icons that take the user to the pages linked social media accounts.
+   ![footer](https://github.com/jaredakigbesote/Eguides-project/blob/main/assets/media/nav.PNG)
 - __Home Page__
 - The home page provides the user with information on the website and a brief overview of the game with a video of the game trailer.
 - The bottom section of the page provides information on how the website helps players and what we offer to people when they sign up.
@@ -47,7 +48,7 @@ A update announcement on the home page to infrom users of the game current build
 ### Validation
 - No errors where found in the style.css file. [(Jigsaw) validator] https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjaredakigbesote.github.io%2FEguides-project%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-- One error occured in the html test.
+- One error occured in the html test. [W3C validator] https://validator.w3.org/nu/?doc=https%3A%2F%2Fjaredakigbesote.github.io%2FEguides-project%2F
 
 ## Deployment
 
@@ -61,7 +62,7 @@ Link to page:https://jaredakigbesote.github.io/Eguides-project/index.html
 ## credits
 
 ### content
-- The video on the homepage was taken from youtube.
+- The video on the homepage was taken from Bandi Namco Youtube Channel [Youtube](https://www.youtube.com/@BandaiNamcoEntertainmentEurope)
 - The icons that were used are from fontawesome [Font Awesome](https://fontawesome.com/).
 
 ### media 
