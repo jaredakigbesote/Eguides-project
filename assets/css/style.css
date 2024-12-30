@@ -13,7 +13,11 @@
 /* 404 page*/
 .error-p {
     display: flex;
+    font-size: 20px;
 
+}
+.error-link{
+     color: white;
 }
 /* Main css */
 
