@@ -10,6 +10,14 @@
 
 /* google fonts import */
 
+/* 404 page*/
+.error-p {
+    display: flex;
+
+}
+/* Main css */
+
+
 body {
     min-height: 100vh;
     display: flex;
