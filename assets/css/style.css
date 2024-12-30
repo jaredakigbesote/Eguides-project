@@ -13,12 +13,14 @@
 /* 404 page*/
 .error-p {
     display: flex;
-    font-size: 20px;
+    font-size: 50px;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 
 }
-.error-link{
-     color: white;
-}
+
 /* Main css */
 
 
